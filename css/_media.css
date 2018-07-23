@@ -1,0 +1,425 @@
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .s-features .feature-card {
+    padding: 25px;
+  }
+  .s-second-highlights .second-highlights-decr {
+    padding: 65px 50px;
+  }
+  .s-second-highlights .second-highlights-decr .h3 {
+    font-size: 30px;
+  }
+  .s-second-highlights {
+    padding-top: 0;
+  }
+  .s-video {
+    padding: 60px 0 100px 0;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  h1 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  #header .a-img {
+    width: 60px;
+    height: 60px;
+  }
+  #header .header-text {
+    padding-top: 50px;
+  }
+  .header-button > a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #header .top_nav_menu li {
+    font-size: 14px;
+  }
+  #header .top_nav_menu .download {
+    font-size: 12px;
+  }
+  .responsive-nav {
+    display: none; }
+
+  #header .top_nav_menu li.nav-toggle {
+    display: block;
+    z-index: 100;
+    height: 100%;
+    margin-right: 10px;
+    margin-top: 30px; }
+  #header .responsive-nav.unfold {
+    display: block;
+    width: 100%;
+    background-color: rgba(31, 31, 31, 0.8);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    padding: 40px; }
+  #header .responsive-nav.unfold li {
+    margin-bottom: 20px;
+    display: block; }
+  #header .responsive-nav.unfold a {
+    padding: 40px;
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px; }
+  #header .responsive-nav.unfold a:hover {
+    transform: translate(0);
+    color: #7956ec;
+    box-shadow: none;
+   }
+  #header .responsive-nav.unfold .download {
+    background: inherit;
+    color: white;
+    margin-left: 0;
+    font-size: 18px;
+    margin-top: 0;
+   }
+  #header .responsive-nav.unfold .download:hover {
+    color: #7956ec; }
+  .s-features .h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .s-features .feature-card {
+    padding: 15px 80px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .s-get_started .h2 {
+    font-size: 29px;
+  }
+  .s-get_started a {
+    font-size: 14px;
+  }
+  .s-second-highlights .second-highlights-decr .h3 {
+    font-size: 24px;
+  }
+  .s-second-highlights .highlights-image-ipad {
+        padding: 86px 52px 0;
+  }
+  .s-highlights img {
+    height: 86%;
+  }
+  .s-reviews {
+    padding: 60px 0 80px 0;
+    background: -webkit-linear-gradient(left, white, white 42%, #f8f9fa 21%, #f8f9fa);
+  }
+  .s-reviews .h3 {
+    font-size: 27px;
+  }
+  .s-reviews .review-item .h5 {
+    line-height: 1.5;
+  }
+  .s-pricing {
+    padding-bottom: 80px;
+  }
+  .s-pricing .price-box .price .h2 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+  .s-pricing .price-box .price ul li {
+    padding: 0 10px;
+  }
+  .s-pricing .price-box .price .default-button {
+    padding: 10px 55px;
+    margin: 0 auto;
+  }
+  .s-pricing .price-box {
+    height: 100%;
+    margin-top: 35px;
+  }
+  .s-pricing .price-box-free {
+    margin-top: 35px;
+    height: 92%;
+  }
+  .s-pricing .price-box-free .h2 {
+    font-size: 35px;
+    margin-top: 0;
+  }
+  .s-pricing .price-box-free .default-button {
+    padding: 10px 45px;
+    margin: 0 auto;
+  }
+  .s-pricing .price-box-free ul {
+    padding-left: 25px;
+  }
+  .s-pricing .h3  {
+    font-size: 25px;
+    padding-top: 160px;
+  }
+  .s-stay-in .callback {
+    padding: 40px 70px
+  }
+  .s-stay-in .callback textarea {
+    max-width: 300px;
+  }
+  .s-stay-in .callback .form-call input {
+    width: 300px;
+    margin: 10px;
+  }
+  #my-footer .footer-icons {
+    margin-top: 20px;
+  }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  h1 {
+    font-size: 23px;
+  }
+  #header .header-text {
+    padding-top: 40px;
+  }
+  #header .top_nav_menu {
+    margin-bottom: 20px;
+  }
+  #header {
+    height: 550px;
+  }
+  .header-button > a {
+    padding: 8px 11px;
+    font-size: 12px;
+  }
+  .s-features {
+    min-height: 400px;
+    padding-bottom: 50px;
+  }
+  .s-features .h2 {
+    padding-top: 50px
+  }
+  .feature-card .h3 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .feature-card p {
+    margin-top: 4px;
+  }
+  .s-highlights {
+    padding: 25px;
+    padding-bottom: 70px;
+  }
+  .s-highlights .highlight-container {
+    margin-top: 20px;
+  }
+  .s-highlights .col-sm:first-child {
+    padding-top: 0;
+  }
+  .s-highlights img {
+    height: 100%;
+  }
+  .s-second-highlights .second-highlights-decr {
+    padding: 10px 50px;
+  }
+  .s-second-highlights .second-highlights-decr .h3 {
+    font-size: 24px;
+  }
+  .s-second-highlights .second-highlights-decr p {
+    font-size: 14px;
+  }
+  .s-reviews .review-item .h5 {
+    background-position: top center;
+    padding: 55px 15px 0 15px;
+  }
+  .s-reviews .review-item {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .s-reviews .middle-item {
+    margin-left: 0;
+  }
+  .s-reviews .h3 {
+    font-size: 22px;
+  }
+  .s-reviews .review-item .h6 {
+    padding-left: 10px;
+  }
+  .s-reviews .review-item hr {
+    margin-right: 0;
+  }
+  .s-pricing .h3 {
+    padding-top: 40px;
+  }
+  .s-stay-in .callback .form-call input::placeholder {
+  }
+  .footer-icons {
+    margin-top: 25px;
+  }
+  /* #header .top_nav_menu li .download {
+    display: none;
+  } */
+}
+
+@media only screen and (max-width : 576px) {
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #header .a-img {
+    margin: 0 auto;
+    display: block;
+  }
+  .header-button {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #header .ipad img {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+  }
+  .s-features .feature-card {
+    margin-bottom: 15px;
+    padding: 30px;
+  }
+  .s-features {
+    position: relative;
+  }
+  .s-features .h2 {
+    padding-bottom: 20px;
+  }
+  .feature-card .h3 {
+    font-size: 20px;
+  }
+  .feature-card p {
+    font-size: 16px;
+  }
+  .feature-card a {
+    font-size: 16px;
+  }
+  .s-reviews {
+    text-align: center;
+    background: -webkit-linear-gradient(top, white, white 24%, #f8f9fa 21%, #f8f9fa)
+    /* padding: 30px 0 30px 0; */
+  }
+  .s-reviews {
+    padding: 30px 0 30px 0;
+    background: white;
+  }
+  .s-reviews .h3 {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  .s-reviews .review-item-margin {
+    margin-top: 150px;
+  }
+  .s-reviews .read-more span {
+    left: 47%
+  }
+  .s-reviews .read-more .google-store {
+    left: 47%
+  }
+  .s-reviews .read-more .arrow {
+    left: 40%
+  }
+  .s-reviews .review-item:hover {
+    margin-left: 0;
+  }
+  .s-reviews .review-item {
+    width: 100%;
+    max-width: 100%;
+  }
+  .s-pricing .h3 {
+    padding-top: 30px;
+  }
+  .s-pricing .price-box .price .default-button {
+    padding: 10px 51px;
+    margin-right: 0;
+  }
+  .s-pricing .price-box-free .default-button {
+    padding: 10px 51px;
+    margin-right: 0;
+  }
+  #my-footer .author {
+    margin-top: 0;
+  }
+  #my-footer .logo h2 {
+    margin-bottom: 10px;
+  }
+  #my-footer{
+    padding: 20px 20px 60px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .s-highlights {
+    padding: 30px 0;
+  }
+  .s-highlights p {
+    width: auto;
+  }
+  .s-stay-in .callback textarea {
+    max-width: 200px;
+  }
+  .s-stay-in .callback input {
+    max-width: 200px;
+  }
+  .default-button {
+    padding: 10px 17px;
+    margin: 0 auto;
+  }
+  .s-pricing .price-box .price .default-button {
+    padding: 10px 20px;
+  }
+  .s-pricing .price-box-free .default-button {
+    margin: 0 auto;
+    padding: 10px 38px;
+  }
+  .s-stay-in .callback .form-call input {
+    width: 200px;
+  }
+  .s-stay-in .callback {
+    padding: 50px 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.s-reviews .review-item .h6 {
+  text-align: left
+}
+.s-stay-in .callback .form-call input {
+  width: 160px;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}

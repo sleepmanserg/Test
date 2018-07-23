@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="8px" viewBox="0 0 24 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sample" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-135.000000, -5521.000000)" fill="#D3D5D9">
+            <g id="Testimonials-#1" transform="translate(0.000000, 4920.000000)">
+                <g id="More-Links" transform="translate(135.000000, 529.000000)">
+                    <path d="M17,75 L0.993397683,75 C0.444946289,75 0,75.4477153 0,76 C0,76.5561352 0.444759292,77 0.993397683,77 L17,77 L17,78.9988421 C17,79.7758366 17.8479712,80.2557644 18.5144958,79.8560041 L23.5144958,76.857162 C24.1618347,76.4689085 24.1618347,75.5310915 23.5144958,75.142838 L18.5144958,72.1439959 C17.8479712,71.7442356 17,72.2241634 17,73.0011579 L17,75 Z" id="Arrow-Icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
